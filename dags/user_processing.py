@@ -35,7 +35,7 @@ default_args = {
 
 with DAG(
     "user_processing",
-    schedule_interval="@daily",
+    schedule_interval="*/5 * * * *",
     default_args=default_args,
     catchup=False
 ) as dag:

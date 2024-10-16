@@ -1,0 +1,26 @@
+[2024-10-16T05:35:04.447+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T05:30:00+00:00 [queued]>
+[2024-10-16T05:35:04.453+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T05:30:00+00:00 [queued]>
+[2024-10-16T05:35:04.453+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T05:35:04.453+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2024-10-16T05:35:04.453+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T05:35:04.460+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2024-10-16 05:30:00+00:00
+[2024-10-16T05:35:04.463+0000] {standard_task_runner.py:55} INFO - Started process 2409 to run task
+[2024-10-16T05:35:04.465+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2024-10-16T05:30:00+00:00', '--job-id', '362', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpfd91ha8i']
+[2024-10-16T05:35:04.466+0000] {standard_task_runner.py:83} INFO - Job 362: Subtask extract_user
+[2024-10-16T05:35:04.494+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2024-10-16T05:30:00+00:00 [running]> on host b35d88915934
+[2024-10-16T05:35:04.527+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-16T05:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-16T05:30:00+00:00
+[2024-10-16T05:35:04.528+0000] {http.py:121} INFO - Calling HTTP method
+[2024-10-16T05:35:04.532+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2024-10-16T05:35:04.533+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2024-10-16T05:35:06.078+0000] {http.py:125} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Ticira","last":"Moreira"},"location":{"street":{"number":6458,"name":"Rua São Sebastiao "},"city":"Abaetetuba","state":"Rio Grande do Norte","country":"Brazil","postcode":61987,"coordinates":{"latitude":"-74.7440","longitude":"132.6268"},"timezone":{"offset":"+7:00","description":"Bangkok, Hanoi, Jakarta"}},"email":"ticira.moreira@example.com","login":{"uuid":"ea0cad0b-9d2a-4065-a255-72ce8fc19960","username":"goldenkoala230","password":"enrico","salt":"1kMaAuPl","md5":"01a90504c2395656f585260d60747a49","sha1":"a5bb25b2e983f058ea4e5c1b9c078bdedb7fa030","sha256":"87315214db99f3d4b086c6f8dab237b340c7f93b1c774fa470c36028a3380a75"},"dob":{"date":"1987-09-07T06:39:33.699Z","age":37},"registered":{"date":"2020-06-11T03:49:39.714Z","age":4},"phone":"(97) 0663-0109","cell":"(73) 3830-3761","id":{"name":"CPF","value":"473.141.822-66"},"picture":{"large":"https://randomuser.me/api/portraits/women/49.jpg","medium":"https://randomuser.me/api/portraits/med/women/49.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/49.jpg"},"nat":"BR"}],"info":{"seed":"afa302b8d6fb6652","results":1,"page":1,"version":"1.4"}}
+[2024-10-16T05:35:06.104+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20241016T053000, start_date=20241016T053504, end_date=20241016T053506
+[2024-10-16T05:35:06.149+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-10-16T05:35:06.168+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

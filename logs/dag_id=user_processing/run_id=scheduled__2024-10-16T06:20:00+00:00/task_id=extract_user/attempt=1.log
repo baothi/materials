@@ -1,0 +1,26 @@
+[2024-10-16T06:27:24.295+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T06:20:00+00:00 [queued]>
+[2024-10-16T06:27:24.300+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T06:20:00+00:00 [queued]>
+[2024-10-16T06:27:24.300+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T06:27:24.300+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2024-10-16T06:27:24.300+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T06:27:24.306+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2024-10-16 06:20:00+00:00
+[2024-10-16T06:27:24.309+0000] {standard_task_runner.py:55} INFO - Started process 2705 to run task
+[2024-10-16T06:27:24.310+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2024-10-16T06:20:00+00:00', '--job-id', '397', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp0zpp88q0']
+[2024-10-16T06:27:24.311+0000] {standard_task_runner.py:83} INFO - Job 397: Subtask extract_user
+[2024-10-16T06:27:24.338+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2024-10-16T06:20:00+00:00 [running]> on host b35d88915934
+[2024-10-16T06:27:24.368+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-16T06:20:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-16T06:20:00+00:00
+[2024-10-16T06:27:24.368+0000] {http.py:121} INFO - Calling HTTP method
+[2024-10-16T06:27:24.372+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2024-10-16T06:27:24.373+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2024-10-16T06:27:25.143+0000] {http.py:125} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Nathaniel","last":"Jones"},"location":{"street":{"number":6059,"name":"Lake Terrace"},"city":"Invercargill","state":"Northland","country":"New Zealand","postcode":57655,"coordinates":{"latitude":"50.8379","longitude":"-163.7108"},"timezone":{"offset":"-9:00","description":"Alaska"}},"email":"nathaniel.jones@example.com","login":{"uuid":"c5197588-2096-4a25-be38-c7fd89716725","username":"blueleopard815","password":"triumph","salt":"lbKANlvE","md5":"4018cbb1ba231b8ada9bfe6d97e4c6bc","sha1":"44a2675967387a2906cdd0e10ce381d44398d9f5","sha256":"52971d0e6d78f7ed15f6584c7552bd28a1bbb98d157e58c7dbdbea2c1e67fffb"},"dob":{"date":"1972-03-24T18:27:54.123Z","age":52},"registered":{"date":"2021-05-27T07:54:21.122Z","age":3},"phone":"(554)-044-1383","cell":"(202)-949-8396","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/men/83.jpg","medium":"https://randomuser.me/api/portraits/med/men/83.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/83.jpg"},"nat":"NZ"}],"info":{"seed":"926d9948b8ece884","results":1,"page":1,"version":"1.4"}}
+[2024-10-16T06:27:25.156+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20241016T062000, start_date=20241016T062724, end_date=20241016T062725
+[2024-10-16T06:27:25.177+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-10-16T06:27:25.194+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

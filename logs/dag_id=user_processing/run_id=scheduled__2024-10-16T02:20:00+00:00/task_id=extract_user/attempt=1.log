@@ -1,0 +1,26 @@
+[2024-10-16T02:25:03.687+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T02:20:00+00:00 [queued]>
+[2024-10-16T02:25:03.691+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T02:20:00+00:00 [queued]>
+[2024-10-16T02:25:03.691+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T02:25:03.691+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2024-10-16T02:25:03.691+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T02:25:03.696+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2024-10-16 02:20:00+00:00
+[2024-10-16T02:25:03.698+0000] {standard_task_runner.py:55} INFO - Started process 4807 to run task
+[2024-10-16T02:25:03.700+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2024-10-16T02:20:00+00:00', '--job-id', '191', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp_fqx6eku']
+[2024-10-16T02:25:03.701+0000] {standard_task_runner.py:83} INFO - Job 191: Subtask extract_user
+[2024-10-16T02:25:03.723+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2024-10-16T02:20:00+00:00 [running]> on host dcdd4c71b617
+[2024-10-16T02:25:03.747+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-16T02:20:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-16T02:20:00+00:00
+[2024-10-16T02:25:03.748+0000] {http.py:121} INFO - Calling HTTP method
+[2024-10-16T02:25:03.751+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2024-10-16T02:25:03.751+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2024-10-16T02:25:04.439+0000] {http.py:125} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Okan","last":"Süleymanoğlu"},"location":{"street":{"number":249,"name":"Filistin Cd"},"city":"Niğde","state":"Ordu","country":"Turkey","postcode":94672,"coordinates":{"latitude":"71.9208","longitude":"-65.4117"},"timezone":{"offset":"0:00","description":"Western Europe Time, London, Lisbon, Casablanca"}},"email":"okan.suleymanoglu@example.com","login":{"uuid":"db709aaf-38e6-47f0-a621-5fa50dfeff7e","username":"blackcat415","password":"hermes","salt":"oH4xB8ck","md5":"227945e28eee191eaed6dce5e78e2154","sha1":"8d91888885fd4c4a840ceb9a96ace0889eb47de6","sha256":"9330750cb878932f65fedb95262e6e46f5c5987eedaff1079700f9ad497b8984"},"dob":{"date":"2000-04-25T20:00:39.082Z","age":24},"registered":{"date":"2014-11-10T06:17:58.532Z","age":9},"phone":"(089)-999-4963","cell":"(324)-609-0515","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/men/37.jpg","medium":"https://randomuser.me/api/portraits/med/men/37.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/37.jpg"},"nat":"TR"}],"info":{"seed":"8b2b089929345537","results":1,"page":1,"version":"1.4"}}
+[2024-10-16T02:25:04.459+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20241016T022000, start_date=20241016T022503, end_date=20241016T022504
+[2024-10-16T02:25:04.505+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-10-16T02:25:04.522+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

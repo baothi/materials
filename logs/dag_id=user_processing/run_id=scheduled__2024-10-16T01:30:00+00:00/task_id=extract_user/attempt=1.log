@@ -1,0 +1,26 @@
+[2024-10-16T01:35:03.797+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T01:30:00+00:00 [queued]>
+[2024-10-16T01:35:03.802+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T01:30:00+00:00 [queued]>
+[2024-10-16T01:35:03.803+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T01:35:03.803+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2024-10-16T01:35:03.803+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T01:35:03.809+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2024-10-16 01:30:00+00:00
+[2024-10-16T01:35:03.812+0000] {standard_task_runner.py:55} INFO - Started process 2089 to run task
+[2024-10-16T01:35:03.813+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2024-10-16T01:30:00+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpyoj8lmcp']
+[2024-10-16T01:35:03.814+0000] {standard_task_runner.py:83} INFO - Job 125: Subtask extract_user
+[2024-10-16T01:35:03.844+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2024-10-16T01:30:00+00:00 [running]> on host dcdd4c71b617
+[2024-10-16T01:35:03.873+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-16T01:30:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-16T01:30:00+00:00
+[2024-10-16T01:35:03.874+0000] {http.py:121} INFO - Calling HTTP method
+[2024-10-16T01:35:03.877+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2024-10-16T01:35:03.878+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2024-10-16T01:35:04.753+0000] {http.py:125} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Jos","last":"Zamora"},"location":{"street":{"number":5820,"name":"Privada Olmos"},"city":"Hacienda de Cabañas","state":"Baja California","country":"Mexico","postcode":70454,"coordinates":{"latitude":"25.1695","longitude":"30.3488"},"timezone":{"offset":"+1:00","description":"Brussels, Copenhagen, Madrid, Paris"}},"email":"jos.zamora@example.com","login":{"uuid":"8f479d50-a8e8-4693-967a-2e55583ba4d0","username":"reddog929","password":"jjjj","salt":"H6GzJmgA","md5":"cefdba0f2fe8638e9d16fc4a1605447f","sha1":"92a705418f580d299d3fb4bb2b3c0a2a08a863e0","sha256":"882f157f74fd5b718b0a564958ecd3de0b92e7f0840978cdae177f0c77d07540"},"dob":{"date":"1965-06-12T17:22:13.497Z","age":59},"registered":{"date":"2009-08-02T06:00:17.837Z","age":15},"phone":"(652) 762 8076","cell":"(631) 430 5751","id":{"name":"NSS","value":"29 14 82 5810 7"},"picture":{"large":"https://randomuser.me/api/portraits/women/32.jpg","medium":"https://randomuser.me/api/portraits/med/women/32.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/32.jpg"},"nat":"MX"}],"info":{"seed":"57faafabb518501b","results":1,"page":1,"version":"1.4"}}
+[2024-10-16T01:35:04.772+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20241016T013000, start_date=20241016T013503, end_date=20241016T013504
+[2024-10-16T01:35:04.789+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-10-16T01:35:04.807+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

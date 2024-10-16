@@ -141,3 +141,12 @@ Feel free to update the configuration based on your needs or infrastructure setu
 ---
 
 This should provide you with a step-by-step guide to running Airflow using Docker Compose. Let me know if you encounter any issues!
+
+
+## work elasticsearch 
+### run docker 
+ docker exec -it materials-airflow-scheduler-1 /bin/bash
+airflow@c844e4638616:/opt/airflow$ airflow plugins
+name                 | hooks                          | source                                       
+=====================+================================+==============================================
+elasticsearch_plugin | elastic_hook.ElasticsearchHook | $PLUGINS_FOLDER/hooks/elastic/elastic_hook.py

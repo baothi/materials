@@ -1,0 +1,26 @@
+[2024-10-16T03:55:02.727+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T03:50:00+00:00 [queued]>
+[2024-10-16T03:55:02.732+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T03:50:00+00:00 [queued]>
+[2024-10-16T03:55:02.732+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T03:55:02.732+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2024-10-16T03:55:02.732+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T03:55:02.737+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2024-10-16 03:50:00+00:00
+[2024-10-16T03:55:02.740+0000] {standard_task_runner.py:55} INFO - Started process 1723 to run task
+[2024-10-16T03:55:02.741+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2024-10-16T03:50:00+00:00', '--job-id', '267', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpzq0ia0dk']
+[2024-10-16T03:55:02.743+0000] {standard_task_runner.py:83} INFO - Job 267: Subtask extract_user
+[2024-10-16T03:55:02.766+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2024-10-16T03:50:00+00:00 [running]> on host b35d88915934
+[2024-10-16T03:55:02.791+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-16T03:50:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-16T03:50:00+00:00
+[2024-10-16T03:55:02.792+0000] {http.py:121} INFO - Calling HTTP method
+[2024-10-16T03:55:02.796+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2024-10-16T03:55:02.796+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2024-10-16T03:55:04.266+0000] {http.py:125} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Ekrem","last":"Kracht"},"location":{"street":{"number":3182,"name":"Fasanenweg"},"city":"Stadtallendorf","state":"Mecklenburg-Vorpommern","country":"Germany","postcode":60863,"coordinates":{"latitude":"-51.5186","longitude":"-97.5240"},"timezone":{"offset":"-11:00","description":"Midway Island, Samoa"}},"email":"ekrem.kracht@example.com","login":{"uuid":"37054d79-9c35-4369-bc50-150151a86f27","username":"greenbear173","password":"season","salt":"KUnwoBJn","md5":"4eb657db021080d2baf048669fc54534","sha1":"dee114fd37b9f166ff04168d69ab9df949b12090","sha256":"5d45d2db734edb2a3878d9b82a92ca2cf593d742e9b94be2cbc63e3489268bfd"},"dob":{"date":"1965-08-14T05:35:22.279Z","age":59},"registered":{"date":"2002-06-10T22:15:52.642Z","age":22},"phone":"0316-5491482","cell":"0176-3717109","id":{"name":"SVNR","value":"55 140865 K 079"},"picture":{"large":"https://randomuser.me/api/portraits/men/10.jpg","medium":"https://randomuser.me/api/portraits/med/men/10.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/10.jpg"},"nat":"DE"}],"info":{"seed":"62fed901144f4bd7","results":1,"page":1,"version":"1.4"}}
+[2024-10-16T03:55:04.291+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20241016T035000, start_date=20241016T035502, end_date=20241016T035504
+[2024-10-16T03:55:04.306+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-10-16T03:55:04.327+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

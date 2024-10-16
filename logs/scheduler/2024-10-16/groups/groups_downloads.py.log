@@ -1,0 +1,120 @@
+[2024-10-16T01:31:00.347+0000] {processor.py:154} INFO - Started process (PID=2279) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:31:00.347+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:31:00.348+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:31:00.348+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:31:00.357+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:31:00.366+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.021 seconds
+[2024-10-16T01:31:30.872+0000] {processor.py:154} INFO - Started process (PID=2314) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:31:30.873+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:31:30.874+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:31:30.874+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:31:30.881+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:31:30.893+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.023 seconds
+[2024-10-16T01:32:01.406+0000] {processor.py:154} INFO - Started process (PID=2349) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:32:01.406+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:32:01.407+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:32:01.407+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:32:01.410+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:32:01.419+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.015 seconds
+[2024-10-16T01:32:31.952+0000] {processor.py:154} INFO - Started process (PID=2384) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:32:31.953+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:32:31.954+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:32:31.954+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:32:31.961+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:32:31.971+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.021 seconds
+[2024-10-16T01:33:02.512+0000] {processor.py:154} INFO - Started process (PID=2419) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:33:02.512+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:33:02.513+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:33:02.513+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:33:02.519+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:33:02.528+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.019 seconds
+[2024-10-16T01:33:32.932+0000] {processor.py:154} INFO - Started process (PID=2445) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:33:32.933+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:33:32.933+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:33:32.933+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:33:32.941+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:33:32.949+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.019 seconds
+[2024-10-16T01:34:03.500+0000] {processor.py:154} INFO - Started process (PID=2480) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:34:03.501+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:34:03.502+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:34:03.502+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:34:03.510+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:34:03.518+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.020 seconds
+[2024-10-16T01:34:34.042+0000] {processor.py:154} INFO - Started process (PID=2514) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:34:34.043+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:34:34.044+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:34:34.044+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:34:34.051+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:34:34.060+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.019 seconds
+[2024-10-16T01:35:04.560+0000] {processor.py:154} INFO - Started process (PID=2549) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:35:04.561+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:35:04.561+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:35:04.561+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:35:04.566+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:35:04.576+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.018 seconds
+[2024-10-16T01:35:35.045+0000] {processor.py:154} INFO - Started process (PID=2584) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:35:35.046+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:35:35.046+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:35:35.046+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:35:35.054+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:35:35.063+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.020 seconds
+[2024-10-16T01:35:37.086+0000] {processor.py:154} INFO - Started process (PID=2585) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:35:37.086+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:35:37.086+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:35:37.086+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:35:37.091+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:35:37.099+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.016 seconds
+[2024-10-16T01:36:07.597+0000] {processor.py:154} INFO - Started process (PID=2620) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:36:07.599+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:36:07.599+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:36:07.599+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:36:07.605+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:36:07.614+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.021 seconds
+[2024-10-16T01:36:38.080+0000] {processor.py:154} INFO - Started process (PID=2655) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:36:38.083+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:36:38.083+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:36:38.083+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:36:38.086+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:36:38.094+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.016 seconds
+[2024-10-16T01:37:08.561+0000] {processor.py:154} INFO - Started process (PID=2690) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:37:08.562+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:37:08.562+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:37:08.562+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:37:08.567+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:37:08.577+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.018 seconds
+[2024-10-16T01:37:39.006+0000] {processor.py:154} INFO - Started process (PID=2725) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:37:39.006+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:37:39.006+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:37:39.006+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:37:39.010+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:37:39.017+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.013 seconds
+[2024-10-16T01:38:09.466+0000] {processor.py:154} INFO - Started process (PID=2759) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:38:09.466+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:38:09.467+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:38:09.467+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:38:09.470+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:38:09.478+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.015 seconds
+[2024-10-16T01:38:39.918+0000] {processor.py:154} INFO - Started process (PID=2794) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:38:39.918+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:38:39.919+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:38:39.919+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:38:39.922+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:38:39.932+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.015 seconds
+[2024-10-16T01:39:10.392+0000] {processor.py:154} INFO - Started process (PID=2820) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:39:10.393+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:39:10.393+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:39:10.393+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:39:10.396+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:39:10.405+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.015 seconds
+[2024-10-16T01:39:40.860+0000] {processor.py:154} INFO - Started process (PID=2855) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:39:40.861+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:39:40.861+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:39:40.861+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:39:40.864+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:39:40.872+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.013 seconds
+[2024-10-16T01:40:11.288+0000] {processor.py:154} INFO - Started process (PID=2890) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:40:11.288+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:40:11.289+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:40:11.289+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:40:11.292+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:40:11.298+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.012 seconds
+[2024-10-16T01:40:41.753+0000] {processor.py:154} INFO - Started process (PID=2925) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:40:41.754+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:40:41.755+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:40:41.755+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:40:41.758+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:40:41.765+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.014 seconds
+[2024-10-16T01:41:12.267+0000] {processor.py:154} INFO - Started process (PID=2960) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:41:12.267+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:41:12.268+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:41:12.268+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:41:12.273+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:41:12.283+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.019 seconds
+[2024-10-16T01:41:42.738+0000] {processor.py:154} INFO - Started process (PID=2996) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:41:42.739+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:41:42.739+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:41:42.739+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:41:42.744+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:41:42.754+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.019 seconds
+[2024-10-16T01:42:13.174+0000] {processor.py:154} INFO - Started process (PID=3031) to work on /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:42:13.175+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/groups_downloads.py for tasks to queue
+[2024-10-16T01:42:13.176+0000] {logging_mixin.py:120} INFO - [2024-10-16T01:42:13.176+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:42:13.179+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/groups_downloads.py
+[2024-10-16T01:42:13.189+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/groups_downloads.py took 0.017 seconds

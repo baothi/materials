@@ -1,0 +1,26 @@
+[2024-10-16T01:20:24.815+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T01:15:00+00:00 [queued]>
+[2024-10-16T01:20:24.820+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2024-10-16T01:15:00+00:00 [queued]>
+[2024-10-16T01:20:24.820+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T01:20:24.820+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2024-10-16T01:20:24.820+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-16T01:20:24.827+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2024-10-16 01:15:00+00:00
+[2024-10-16T01:20:24.829+0000] {standard_task_runner.py:55} INFO - Started process 1300 to run task
+[2024-10-16T01:20:24.831+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2024-10-16T01:15:00+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpxgfwvh_o']
+[2024-10-16T01:20:24.832+0000] {standard_task_runner.py:83} INFO - Job 110: Subtask extract_user
+[2024-10-16T01:20:24.861+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2024-10-16T01:15:00+00:00 [running]> on host dcdd4c71b617
+[2024-10-16T01:20:24.890+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-16T01:15:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-16T01:15:00+00:00
+[2024-10-16T01:20:24.890+0000] {http.py:121} INFO - Calling HTTP method
+[2024-10-16T01:20:24.894+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2024-10-16T01:20:24.894+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2024-10-16T01:20:25.291+0000] {http.py:125} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Antonije","last":"Tomašević"},"location":{"street":{"number":7832,"name":"Paška Vučetića "},"city":"Nova Crnja","state":"Zaječar","country":"Serbia","postcode":66764,"coordinates":{"latitude":"61.8230","longitude":"-39.0475"},"timezone":{"offset":"+5:30","description":"Bombay, Calcutta, Madras, New Delhi"}},"email":"antonije.tomasevic@example.com","login":{"uuid":"0dbca8fa-a9a0-41cf-a863-789f52724364","username":"heavyelephant521","password":"lewis","salt":"NMPcfX0z","md5":"14ffce36074786e3db1d6aef4683fe32","sha1":"e4efc7924b47395ef4c1c1fd74e36275d4542180","sha256":"63be4edfddf318433e7db799519e632b2b2300e8746228a60b7212651cefcf72"},"dob":{"date":"1975-11-17T09:42:35.235Z","age":48},"registered":{"date":"2014-10-18T01:20:18.403Z","age":9},"phone":"021-4122-429","cell":"065-2752-202","id":{"name":"SID","value":"001050308"},"picture":{"large":"https://randomuser.me/api/portraits/men/95.jpg","medium":"https://randomuser.me/api/portraits/med/men/95.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/95.jpg"},"nat":"RS"}],"info":{"seed":"e8c6ec5538e6493d","results":1,"page":1,"version":"1.4"}}
+[2024-10-16T01:20:25.310+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20241016T011500, start_date=20241016T012024, end_date=20241016T012025
+[2024-10-16T01:20:25.341+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2024-10-16T01:20:25.356+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
